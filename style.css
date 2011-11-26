@@ -8,3 +8,27 @@ Template:       twentyeleven
 Version:        0.1.0
 */
 @import url("../twentyeleven/style.css");  
+
+#page{
+	margin-top: 0;
+}
+#branding{
+	border: 0px;
+}
+#branding hgroup {
+	position: absolute;
+	margin:  2em .5em;
+}
+
+#branding #site-title{
+
+	padding: 0;
+}
+#branding #site-title a{
+	font-size: 6em;
+	color:  #FFF;
+}
+#branding #searchform {
+background: rgba(255,255,255,.7);
+padding: 0;
+}
